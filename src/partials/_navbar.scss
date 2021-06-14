@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 1rem 0;
+    border-bottom: 2px solid black;
+
+    .right{
+
+        a{
+            text-decoration: none;
+            font-style: none;
+            color: black;
+            font-weight: bold;
+            padding: 0 0.5rem; 
+        }
+
+        a:last-child{
+            border: 1px solid blue;
+            padding: 0.7rem;
+            border-radius: 0.5rem;
+            img{
+                height: 20px;
+            }
+        }
+    }
+}
