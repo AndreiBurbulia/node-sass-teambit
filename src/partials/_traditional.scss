@@ -1,0 +1,41 @@
+.traditional{
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h2{
+            width: 40%;
+            font-size: 2rem;
+            text-align: center;
+            margin: 4rem 0 4rem 0;
+        }
+
+        .card_container{
+            display: flex;
+
+            .card{
+                width: calc(100% /3);
+                text-align: center;
+
+                img{
+                    height: 50%;
+                    padding-bottom: 2rem;
+                }
+            }
+        }
+
+        &>img{
+            margin-bottom: 8rem;
+        }
+
+        hr{
+            width: 100%;
+        }
+        
+
+
+
+    }
+}

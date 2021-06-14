@@ -90,3 +90,43 @@
   width: 80%;
   margin: auto;
 }
+
+/* Main*/
+.traditional .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.traditional .container h2 {
+  width: 40%;
+  font-size: 2rem;
+  text-align: center;
+  margin: 4rem 0 4rem 0;
+}
+.traditional .container .card_container {
+  display: flex;
+}
+.traditional .container .card_container .card {
+  width: calc(100% /3);
+  text-align: center;
+}
+.traditional .container .card_container .card img {
+  height: 50%;
+  padding-bottom: 2rem;
+}
+.traditional .container > img {
+  margin-bottom: 8rem;
+}
+.traditional .container hr {
+  width: 100%;
+}
+
+/*Traditional*/
+.traditional {
+  background-color: #FFE7D2;
+}
+.traditional .container {
+  width: 80%;
+  margin: auto;
+}

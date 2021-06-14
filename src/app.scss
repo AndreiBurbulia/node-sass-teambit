@@ -14,6 +14,20 @@
     .container{
     width: $container_width;
     margin: auto;
+    }
+}
 
+
+/* Main*/
+
+@import 'partials/traditional';
+
+/*Traditional*/
+.traditional{
+    background-color: $secondary_bg_color;
+
+    .container{
+        width: $container_width;
+        margin: auto;
     }
 }
