@@ -1,16 +1,26 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap);
+/* Google Fonts*/
+/* Variables and Commons*/
+/*Commons*/
+/*  Navbar */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
+/*Header*/
 .navbar {
   display: flex;
   justify-content: space-between;
   width: 80%;
   margin: auto;
-  padding: 1rem 0;
+  padding: 2rem 0 0.5rem 0;
   border-bottom: 2px solid black;
+}
+.navbar .left img {
+  padding-left: 0.5rem;
 }
 .navbar .right a {
   text-decoration: none;
@@ -19,11 +29,16 @@
   font-weight: bold;
   padding: 0 0.5rem;
 }
+.navbar .right a:first-child i {
+  color: black;
+}
 .navbar .right a:last-child {
-  border: 1px solid blue;
-  padding: 0.7rem;
+  border: 1px solid #7486B7;
+  color: #7486B7;
+  padding: 0.7rem 0.5rem;
   border-radius: 0.5rem;
 }
 .navbar .right a:last-child img {
   height: 20px;
+  margin-bottom: -4px;
 }
