@@ -2,7 +2,7 @@
 /* Google Fonts*/
 /* Variables and Commons*/
 /*Commons*/
-/*  Navbar */
+/*  Header */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,8 +14,6 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  width: 80%;
-  margin: auto;
   padding: 2rem 0 0.5rem 0;
   border-bottom: 2px solid black;
 }
@@ -33,12 +31,62 @@
   color: black;
 }
 .navbar .right a:last-child {
-  border: 1px solid #7486B7;
-  color: #7486B7;
+  border: 1px solid #2C4792;
+  color: #2C4792;
   padding: 0.7rem 0.5rem;
   border-radius: 0.5rem;
 }
 .navbar .right a:last-child img {
   height: 20px;
   margin-bottom: -4px;
+}
+
+.jumbotron {
+  display: flex;
+  padding-top: 2rem;
+}
+.jumbotron .left {
+  width: 50%;
+}
+.jumbotron .left h1 {
+  font-size: 4.5rem;
+  line-height: 7rem;
+}
+.jumbotron .left p {
+  font-size: 2rem;
+  padding-right: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+.jumbotron .left a {
+  font-style: none;
+  text-decoration: none;
+  background-color: #2C4792;
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+.jumbotron .left a img {
+  height: 20px;
+  margin-bottom: -4px;
+}
+.jumbotron .left span:last-child {
+  margin-top: 2rem;
+  display: block;
+  margin-bottom: 5rem;
+}
+.jumbotron .right {
+  width: 50%;
+}
+.jumbotron .right img {
+  width: 100%;
+}
+
+#site_header {
+  background-color: white;
+}
+#site_header .container {
+  width: 80%;
+  margin: auto;
 }

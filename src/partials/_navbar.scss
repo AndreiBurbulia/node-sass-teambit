@@ -1,8 +1,6 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    width: 80%;
-    margin: auto;
     padding: 2rem 0 0.5rem 0;
     border-bottom: 2px solid black;
 
@@ -35,7 +33,7 @@
             padding: 0.7rem 0.5rem;
             border-radius: 0.5rem;
             img{
-                height: 20px;
+                height: $height_img_button;
                 margin-bottom: -4px;
             }
         }

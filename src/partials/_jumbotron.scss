@@ -1,0 +1,45 @@
+.jumbotron{
+    display: flex;
+    padding-top: 2rem;
+    .left{
+        width: 50%;
+        h1{
+            font-size: 4.5rem;
+            line-height: 7rem;
+        }
+
+        p{
+            font-size: 2rem;
+            padding-right: 0.5rem;
+            margin-top: 1rem;
+            margin-bottom: 4rem;
+        }
+        a{
+            font-style: none;
+            text-decoration: none;
+            background-color: $sign_up_google;
+            padding: 1rem;
+            color: white;
+            font-weight: bold;
+            border-radius: 0.5rem;
+            img{
+                height: $height_img_button;
+                margin-bottom: -4px;
+            }
+        }
+
+        span:last-child{
+            margin-top: 2rem;
+            display: block;
+            margin-bottom: 5rem;
+        }
+    }
+
+    .right{
+        width: 50%;
+
+        img{
+            width: 100%;
+        }
+    }
+}

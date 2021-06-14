@@ -8,3 +8,12 @@
 /*Header*/
 @import 'partials/navbar';
 @import 'partials/jumbotron';
+
+#site_header{
+    background-color: $primary_bg_color;
+    .container{
+    width: $container_width;
+    margin: auto;
+
+    }
+}
