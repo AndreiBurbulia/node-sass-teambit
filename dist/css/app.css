@@ -122,6 +122,45 @@
   width: 100%;
 }
 
+.presentation {
+  padding: 6rem 0;
+}
+.presentation .row {
+  display: flex;
+}
+.presentation .row .img_container {
+  width: 50%;
+}
+.presentation .row .img_container img {
+  width: 100%;
+}
+.presentation .row .information {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-bottom: 3rem;
+}
+.presentation .row .information h2 {
+  font-size: 3rem;
+  line-height: 5rem;
+  margin-bottom: 4rem;
+}
+.presentation .row .information p {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.presentation .row .information a {
+  margin: 3rem 0;
+  text-decoration: none;
+}
+.presentation .row .information img {
+  width: 100%;
+}
+.presentation .row:nth-child(2),
+.presentation .row:nth-child(4) {
+  justify-content: flex-end;
+}
+
 /*Traditional*/
 .traditional {
   background-color: #FFE7D2;
@@ -129,4 +168,9 @@
 .traditional .container {
   width: 80%;
   margin: auto;
+}
+
+/*Presentation*/
+.presentation {
+  background-color: white;
 }

@@ -21,6 +21,7 @@
 /* Main*/
 
 @import 'partials/traditional';
+@import 'partials/presentation';
 
 /*Traditional*/
 .traditional{
@@ -30,4 +31,9 @@
         width: $container_width;
         margin: auto;
     }
+}
+
+/*Presentation*/
+.presentation{
+    background-color: $primary_bg_color;
 }
